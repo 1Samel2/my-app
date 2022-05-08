@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './page/Home';
-import GlobalStyle from './globalStyle'
+
 
 import './Services/firebase';
 
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <Home/> <GlobalStyle/>
+    <Home/> 
   </>,
 );
 
