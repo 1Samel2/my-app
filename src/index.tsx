@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NewRoom from './page/NewRoom';
+
+import Router from './Router';
 
 import './Services/firebase';
 
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <NewRoom/> 
+    <Router/> 
   </>,
 );
 

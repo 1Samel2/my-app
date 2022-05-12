@@ -1,12 +1,13 @@
-import React from "react";
-
+import { useNavigate } from 'react-router-dom';
 import logoImg from '../assets/logo.svg';
 import illustrationImg from '../assets/illustration.svg';
 import googleIconImg from '../assets/google-icon.svg'
 import '../styles/auth.scss'
 import { Button } from "../Components/Button";
 
+
 function NewRoom() {
+
 
     return (
 
@@ -25,7 +26,7 @@ function NewRoom() {
                 type="text"
                 placeholder="Nome da sala"
               />
-              <Button type="submit">
+              <Button  type="submit">
                 Criar sala
               </Button>
             </form>
