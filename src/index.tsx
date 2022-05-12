@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './page/Home';
+import NewRoom from './page/NewRoom';
 
 import './Services/firebase';
 
@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <Home/> 
+    <NewRoom/> 
   </>,
 );
 
